@@ -1,0 +1,36 @@
+{
+  "name": "stream-sort",
+  "version": "1.0.0",
+  "description": "`stream-sort` is a procedure to sort streams of objects far exceeding available memory.",
+  "homepage": "http://github.com/uhop/stream-sort",
+  "bugs": "http://github.com/uhop/stream-sort/issues",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "heya-ctr": "^0.2.3"
+  },
+  "devDependencies": {
+    "heya-unit": "^0.1.11"
+  },
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "github": "http://github.com/uhop/stream-sort",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uhop/stream-sort.git"
+  },
+  "keywords": [
+    "stream",
+    "sort"
+  ],
+  "author": "Eugene Lazutkin <eugene.lazutkin@gmail.com> (http://lazutkin.com/)",
+  "licenses": [
+    {
+      "type": "New BSD",
+      "url": "http://github.com/uhop/stream-sort/blob/master/LICENSE"
+    }
+  ]
+}
