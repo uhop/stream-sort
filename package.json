@@ -12,7 +12,7 @@
     "heya-ctr": "^0.2.3"
   },
   "devDependencies": {
-    "heya-unit": "^0.1.11"
+    "heya-unit": "^0.2.0"
   },
   "scripts": {
     "test": "node tests/tests.js"
