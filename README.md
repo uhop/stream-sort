@@ -6,7 +6,7 @@
 [![NPM version][npm-image]][npm-url]
 
 
-`stream-sort` is a procedure to sort streams of objects far exceeding available memory. The only assumption is that as little as four objects can fit in memory. The algorithm has O(N * log N) complexity, and as efficient as a quick sort.
+`stream-sort` can sort streams of objects far exceeding available memory. The algorithm has O(N * log N) complexity, and as efficient as a quick sort.
 
 ## Introduction
 
@@ -18,8 +18,10 @@ The simplest example (streaming from a file):
 
 ## Installation
 
-```
-npm install stream-sort
+```bash
+npm i --save stream-sort
+# or
+yarn add stream-sort
 ```
 
 ## Documentation
