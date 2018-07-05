@@ -2,6 +2,6 @@
 
 const unit = require('heya-unit');
 
-// require('./test_array.js');
+require('./test_heap.js');
 
 unit.run();
