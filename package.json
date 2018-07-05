@@ -4,7 +4,7 @@
   "description": "stream-sort is a procedure to sort streams of objects far exceeding available memory.",
   "homepage": "http://github.com/uhop/stream-sort",
   "bugs": "http://github.com/uhop/stream-sort/issues",
-  "main": "main.js",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
@@ -24,5 +24,8 @@
     "sort"
   ],
   "author": "Eugene Lazutkin <eugene.lazutkin@gmail.com> (http://lazutkin.com/)",
-  "licenses": "BSD-3-Clause"
+  "licenses": "BSD-3-Clause",
+  "dependencies": {
+    "stream-json": "^1.1.0"
+  }
 }
