@@ -71,22 +71,9 @@ class Sort extends Duplex {
 
   _saveBatch(callback) {
     this._batch.sort(this._comp);
-
-    if (this._totalReal === this._totalTarget) {
-      // next iteration
-      const target = this._batches[this._index].total;
-      this._batches[this._index].total = 0;
-      this._batches.forEach((_, index) => {
-        if (index !== this._index) {
-          this._batches[index].total += target;
-        }
-      });
-    }
-
-    const data = this._batch;
-    let index = 0;
-
+    // save
     this._batch = [];
+    callback(null);
   }
 
   static sort(options) {
